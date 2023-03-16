@@ -44,7 +44,9 @@ class ScaffoldState extends State<MyScaffold> {
       ),
       initialRoute: '/',
       routes: {
-        '/': (context) => HomePage(),
+        '/': (context) => HomePage(
+            inputs: inputs,
+            callback: (value) => setState(() => inputs = value)),
         '/page1': (context) => Page1(
             inputs: inputs,
             callback: (value) => setState(() => inputs = value)),
