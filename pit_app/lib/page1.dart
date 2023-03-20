@@ -4,8 +4,15 @@ import 'main.dart';
 
 class Page1 extends StatefulWidget {
   //teleop page
-  const Page1({super.key, required this.inputs, required this.callback});
+  const Page1(
+      {super.key,
+      required this.teamnum,
+      required this.teamname,
+      required this.inputs,
+      required this.callback});
 
+  final teamnum;
+  final teamname;
   final inputs;
   final callback;
 
@@ -15,7 +22,31 @@ class Page1 extends StatefulWidget {
 
 class Page1State extends State<Page1> {
   //bool visited = false;
-  //String weight = '';
+  late String weight;
+  late String length;
+  late String width;
+  late String swerve;
+  late String tank;
+  late String mecanum;
+  late String other;
+  late String otherbox;
+  late String comments;
+  late String visited;
+
+  @override
+  void initState() {
+    super.initState();
+    weight = 'weight${widget.teamnum}';
+    length = 'length${widget.teamnum}';
+    width = 'width${widget.teamnum}';
+    swerve = 'swerve${widget.teamnum}';
+    tank = 'tank${widget.teamnum}';
+    mecanum = 'mecanum${widget.teamnum}';
+    other = 'other${widget.teamnum}';
+    otherbox = 'otherbox${widget.teamnum}';
+    comments = 'comments${widget.teamnum}';
+    visited = 'visited${widget.teamnum}';
+  }
 
   void send(String tag, value) {
     setState(() => widget.inputs[tag] = value);
@@ -26,7 +57,7 @@ class Page1State extends State<Page1> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Team 1'),
+        title: Text(widget.teamname),
         leading: IconButton(
           icon: Icon(Icons.arrow_back),
           onPressed: () => Navigator.pop(context),
@@ -45,44 +76,44 @@ class Page1State extends State<Page1> {
                   TextInput(
                       title: 'Weight',
                       hint: 'Weight',
-                      initial: widget.inputs['weight'],
-                      callback: (value) => send('weight', value)),
+                      initial: widget.inputs[weight],
+                      callback: (value) => send(weight, value)),
                   SizedBox(width: 10),
                   SizedBox(width: 10),
                   TextInput(
                       title: 'Length',
                       hint: 'Length',
-                      initial: widget.inputs['length'],
-                      callback: (value) => send('length', value)),
+                      initial: widget.inputs[length],
+                      callback: (value) => send(length, value)),
                   SizedBox(width: 10),
                   TextInput(
                       title: 'Width',
                       hint: 'Width',
-                      initial: widget.inputs['width'],
-                      callback: (value) => send('width', value)),
+                      initial: widget.inputs[width],
+                      callback: (value) => send(width, value)),
                   SizedBox(width: 10),
                 ],
               ),
               SizedBox(height: 20),
               CheckboxListTile(
                 title: Text('Swerve'),
-                value: widget.inputs['swerve'],
+                value: widget.inputs[swerve],
                 onChanged: (bool? value) {
-                  send('swerve', value ?? false);
+                  send(swerve, value ?? false);
                 },
               ),
               CheckboxListTile(
                 title: Text('Tank'),
-                value: widget.inputs['tank'],
+                value: widget.inputs[tank],
                 onChanged: (bool? value) {
-                  send('tank', value ?? false);
+                  send(tank, value ?? false);
                 },
               ),
               CheckboxListTile(
                 title: Text('Mecanum'),
-                value: widget.inputs['mecanum'],
+                value: widget.inputs[mecanum],
                 onChanged: (bool? value) {
-                  send('mecanum', value ?? false);
+                  send(mecanum, value ?? false);
                 },
               ),
               CheckboxListTile(
@@ -93,13 +124,13 @@ class Page1State extends State<Page1> {
                     TextInput(
                         title: 'Other',
                         hint: 'Weast Coast, Butterfly, etc.',
-                        initial: widget.inputs['other'],
-                        callback: (value) => send('other', value)),
+                        initial: widget.inputs[other],
+                        callback: (value) => send(other, value)),
                   ],
                 ),
-                value: widget.inputs['otherbox'],
+                value: widget.inputs[otherbox],
                 onChanged: (bool? value) {
-                  send('otherbox', value ?? false);
+                  send(otherbox, value ?? false);
                 },
               ),
               SizedBox(height: 10),
@@ -110,17 +141,17 @@ class Page1State extends State<Page1> {
                   TextInput(
                       title: 'More Comments',
                       hint: 'auto capabilities, upright cones, vision, etc.',
-                      initial: widget.inputs['comments'],
-                      callback: (value) => send('comments', value)),
+                      initial: widget.inputs[comments],
+                      callback: (value) => send(comments, value)),
                   SizedBox(width: 20),
                 ],
               ),
               SizedBox(height: 10),
               CheckboxListTile(
                 title: Text('Visited'),
-                value: widget.inputs['visited'],
+                value: widget.inputs[visited],
                 onChanged: (bool? value) {
-                  send('visited', value ?? false);
+                  send(visited, value ?? false);
                 },
               ),
             ],

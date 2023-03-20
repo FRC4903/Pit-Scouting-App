@@ -15,7 +15,7 @@ class HomePage extends StatefulWidget {
 class HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    bool firstPageVisited = widget.inputs['visited'] == true;
+    bool firstPageVisited = widget.inputs['visited1'] == true;
     IconData starIcon = firstPageVisited ? Icons.star : Icons.star_border;
     return Scaffold(
       appBar: AppBar(
