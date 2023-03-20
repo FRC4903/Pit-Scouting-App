@@ -341,155 +341,155 @@ class ScaffoldState extends State<MyScaffold> {
             inputs: inputs,
             callback: (value) => setState(() => inputs = value)),
         '/page1': (context) => Page1(
-            teamnum: 1,
-            teamname: 'team 1',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 2,
-            teamname: 'team 2',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 3,
-            teamname: 'team 3',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 4,
-            teamname: 'team 4',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 5,
-            teamname: 'team 5',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 6,
-            teamname: 'team 6',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 7,
-            teamname: 'team 7',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 8,
-            teamname: 'team 8',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 9,
-            teamname: 'team 9',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 10,
-            teamname: 'team 10',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 11,
-            teamname: 'team 11',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 12,
-            teamname: 'team 12',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 13,
-            teamname: 'team 13',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 14,
-            teamname: 'team 14',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 15,
-            teamname: 'team 15',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 16,
-            teamname: 'team 16',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 17,
-            teamname: 'team 17',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 18,
-            teamname: 'team 18',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 19,
-            teamname: 'team 19',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 20,
-            teamname: 'team 20',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 21,
-            teamname: 'team 21',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 22,
-            teamname: 'team 22',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 23,
-            teamname: 'team 23',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 24,
-            teamname: 'team 24',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 25,
-            teamname: 'team 25',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 26,
-            teamname: 'team 26',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 27,
-            teamname: 'team 27',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 28,
-            teamname: 'team 28',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 29,
-            teamname: 'team 29',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
-        '/page1': (context) => Page1(
-            teamnum: 30,
-            teamname: 'team 30',
-            inputs: inputs,
-            callback: (value) => setState(() => inputs = value)),
+              teamnum: 1,
+              teamname: 'team 1',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page2': (context) => Page1(
+              teamnum: 2,
+              teamname: 'team 2',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page3': (context) => Page1(
+              teamnum: 3,
+              teamname: 'team 3',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page4': (context) => Page1(
+              teamnum: 4,
+              teamname: 'team 4',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page5': (context) => Page1(
+              teamnum: 5,
+              teamname: 'team 5',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page6': (context) => Page1(
+              teamnum: 6,
+              teamname: 'team 6',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page7': (context) => Page1(
+              teamnum: 7,
+              teamname: 'team 7',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page8': (context) => Page1(
+              teamnum: 8,
+              teamname: 'team 8',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page9': (context) => Page1(
+              teamnum: 9,
+              teamname: 'team 9',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page10': (context) => Page1(
+              teamnum: 10,
+              teamname: 'team 10',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page11': (context) => Page1(
+              teamnum: 11,
+              teamname: 'team 11',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page12': (context) => Page1(
+              teamnum: 12,
+              teamname: 'team 12',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page13': (context) => Page1(
+              teamnum: 13,
+              teamname: 'team 13',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page14': (context) => Page1(
+              teamnum: 14,
+              teamname: 'team 14',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page15': (context) => Page1(
+              teamnum: 15,
+              teamname: 'team 15',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page16': (context) => Page1(
+              teamnum: 16,
+              teamname: 'team 16',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page17': (context) => Page1(
+              teamnum: 17,
+              teamname: 'team 17',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page18': (context) => Page1(
+              teamnum: 18,
+              teamname: 'team 18',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page19': (context) => Page1(
+              teamnum: 19,
+              teamname: 'team 19',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page20': (context) => Page1(
+              teamnum: 20,
+              teamname: 'team 20',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page21': (context) => Page1(
+              teamnum: 21,
+              teamname: 'team 21',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page22': (context) => Page1(
+              teamnum: 22,
+              teamname: 'team 22',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page23': (context) => Page1(
+              teamnum: 23,
+              teamname: 'team 23',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page24': (context) => Page1(
+              teamnum: 24,
+              teamname: 'team 24',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page25': (context) => Page1(
+              teamnum: 25,
+              teamname: 'team 25',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page26': (context) => Page1(
+              teamnum: 26,
+              teamname: 'team 26',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page27': (context) => Page1(
+              teamnum: 27,
+              teamname: 'team 27',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page28': (context) => Page1(
+              teamnum: 28,
+              teamname: 'team 28',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page29': (context) => Page1(
+              teamnum: 29,
+              teamname: 'team 29',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
+'/page30': (context) => Page1(
+              teamnum: 30,
+              teamname: 'team 30',
+              inputs: inputs,
+              callback: (value) => setState(() => inputs = value)),
       },
     );
   }
