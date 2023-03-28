@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'main.dart';
+import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
   //teleop page
@@ -90,6 +91,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname1']),
                 SizedBox(width: 10),
                 Icon(starIcon1),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '1';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page1'),
@@ -102,6 +112,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname2']),
                 SizedBox(width: 10),
                 Icon(starIcon2),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '2';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page2'),
@@ -114,6 +133,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname3']),
                 SizedBox(width: 10),
                 Icon(starIcon3),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '3';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page3'),
@@ -126,6 +154,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname4']),
                 SizedBox(width: 10),
                 Icon(starIcon4),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '4';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page4'),
@@ -138,6 +175,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname5']),
                 SizedBox(width: 10),
                 Icon(starIcon5),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '5';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page5'),
@@ -150,6 +196,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname6']),
                 SizedBox(width: 10),
                 Icon(starIcon6),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '6';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page6'),
@@ -162,6 +217,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname7']),
                 SizedBox(width: 10),
                 Icon(starIcon7),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '7';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page7'),
@@ -174,6 +238,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname8']),
                 SizedBox(width: 10),
                 Icon(starIcon8),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '8';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page8'),
@@ -186,6 +259,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname9']),
                 SizedBox(width: 10),
                 Icon(starIcon9),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '9';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page9'),
@@ -198,6 +280,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname10']),
                 SizedBox(width: 10),
                 Icon(starIcon10),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '10';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page10'),
@@ -210,6 +301,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname11']),
                 SizedBox(width: 10),
                 Icon(starIcon11),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '11';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page11'),
@@ -222,6 +322,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname12']),
                 SizedBox(width: 10),
                 Icon(starIcon12),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '12';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page12'),
@@ -234,6 +343,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname13']),
                 SizedBox(width: 10),
                 Icon(starIcon13),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '13';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page13'),
@@ -246,6 +364,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname14']),
                 SizedBox(width: 10),
                 Icon(starIcon14),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '14';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page14'),
@@ -258,6 +385,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname15']),
                 SizedBox(width: 10),
                 Icon(starIcon15),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '15';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page15'),
@@ -270,6 +406,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname16']),
                 SizedBox(width: 10),
                 Icon(starIcon16),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '16';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page16'),
@@ -282,6 +427,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname17']),
                 SizedBox(width: 10),
                 Icon(starIcon17),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '17';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page17'),
@@ -294,6 +448,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname18']),
                 SizedBox(width: 10),
                 Icon(starIcon18),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '18';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page18'),
@@ -306,6 +469,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname19']),
                 SizedBox(width: 10),
                 Icon(starIcon19),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '19';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page19'),
@@ -318,6 +490,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname20']),
                 SizedBox(width: 10),
                 Icon(starIcon20),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '20';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page20'),
@@ -330,6 +511,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname21']),
                 SizedBox(width: 10),
                 Icon(starIcon21),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '21';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page21'),
@@ -342,6 +532,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname22']),
                 SizedBox(width: 10),
                 Icon(starIcon22),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '22';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page22'),
@@ -354,6 +553,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname23']),
                 SizedBox(width: 10),
                 Icon(starIcon23),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '23';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page23'),
@@ -366,6 +574,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname24']),
                 SizedBox(width: 10),
                 Icon(starIcon24),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '24';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page24'),
@@ -378,6 +595,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname25']),
                 SizedBox(width: 10),
                 Icon(starIcon25),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '25';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page25'),
@@ -390,6 +616,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname26']),
                 SizedBox(width: 10),
                 Icon(starIcon26),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '26';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page26'),
@@ -402,6 +637,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname27']),
                 SizedBox(width: 10),
                 Icon(starIcon27),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '27';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page27'),
@@ -414,6 +658,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname28']),
                 SizedBox(width: 10),
                 Icon(starIcon28),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '28';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page28'),
@@ -426,6 +679,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname29']),
                 SizedBox(width: 10),
                 Icon(starIcon29),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '29';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page29'),
@@ -438,6 +700,15 @@ class HomePageState extends State<HomePage> {
                 Text(widget.inputs['teamname30']),
                 SizedBox(width: 10),
                 Icon(starIcon30),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '30';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page30'),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pit_app/Qrpage.dart';
 import 'homepage.dart';
 import 'page1.dart';
 
@@ -21,6 +22,7 @@ class MyScaffold extends StatefulWidget {
 class ScaffoldState extends State<MyScaffold> {
 //😬 i mean it works so...
   var inputs = {
+    'refnum': '',
     'num': '',
     'teamnum': '',
     'visited1': false,
@@ -389,14 +391,13 @@ class ScaffoldState extends State<MyScaffold> {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: '4903 Pit Scouting App',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: ThemeData(primarySwatch: Colors.blue, brightness: Brightness.dark),
       initialRoute: '/',
       routes: {
         '/': (context) => HomePage(
             inputs: inputs,
             callback: (value) => setState(() => inputs = value)),
+        '/Qrpage': (context) => Qrcode(inputs: inputs),
         '/page1': (context) => Page1(
             teamnum: 1,
             teamname: 'team 1',

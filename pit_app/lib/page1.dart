@@ -32,6 +32,7 @@ class Page1State extends State<Page1> {
   late String otherbox;
   late String comments;
   late String visited;
+  late String name;
 
   @override
   void initState() {
@@ -46,6 +47,7 @@ class Page1State extends State<Page1> {
     otherbox = 'otherbox${widget.teamnum}';
     comments = 'comments${widget.teamnum}';
     visited = 'visited${widget.teamnum}';
+    name = 'teamname${widget.teamnum}';
   }
 
   void send(String tag, value) {
@@ -57,7 +59,7 @@ class Page1State extends State<Page1> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.teamname),
+        title: Text(widget.inputs[name]),
         leading: IconButton(
           icon: Icon(Icons.arrow_back),
           onPressed: () => Navigator.pop(context),
