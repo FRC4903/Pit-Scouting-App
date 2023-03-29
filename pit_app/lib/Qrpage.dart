@@ -28,6 +28,7 @@ class QrcodeState extends State<Qrcode> {
   late String comments;
   late String visited;
   late String name;
+  late String team;
   late String num = widget.inputs['refnum'];
 
   @override
@@ -44,6 +45,7 @@ class QrcodeState extends State<Qrcode> {
     comments = 'comments${num}';
     visited = 'visited${num}';
     name = 'teamname${num}';
+    team = 'team${num}';
   }
 
   @override
@@ -67,7 +69,7 @@ class QrcodeState extends State<Qrcode> {
                   color: Colors.white,
                   child: QrImage(
                     data:
-                        'krishraw${widget.inputs[weight]}~~~${widget.inputs[length]}~~~${widget.inputs[swerve]}~~~${widget.inputs[tank]}~~~${widget.inputs[mecanum]}~~~${widget.inputs[other]}~~~${widget.inputs[otherbox]}~~~${widget.inputs[comments]}~~~${widget.inputs[visited]}~~~${widget.inputs[name]}',
+                        'krishraw~~~${widget.inputs[team]}~~~${widget.inputs[weight]}~~~${widget.inputs[length]}~~~${widget.inputs[swerve]}~~~${widget.inputs[tank]}~~~${widget.inputs[mecanum]}~~~${widget.inputs[other]}~~~${widget.inputs[otherbox]}~~~${widget.inputs[comments]}~~~${widget.inputs[visited]}~~~${widget.inputs[name]}',
                     version: QrVersions.auto,
                     size: 400,
                   ),
