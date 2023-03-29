@@ -79,7 +79,7 @@ class HomePageState extends State<HomePage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Home Page'),
+        title: Text('4903 Pit Scouting App'),
       ),
       body: ListView(
         children: [
