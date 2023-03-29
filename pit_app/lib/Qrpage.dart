@@ -61,7 +61,8 @@ class QrcodeState extends State<Qrcode> {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Container(
+              Flexible(
+                child: Container(
                   padding: EdgeInsets.all(20),
                   color: Colors.white,
                   child: QrImage(
@@ -69,7 +70,9 @@ class QrcodeState extends State<Qrcode> {
                         'krishraw${widget.inputs[weight]}~~~${widget.inputs[length]}~~~${widget.inputs[swerve]}~~~${widget.inputs[tank]}~~~${widget.inputs[mecanum]}~~~${widget.inputs[other]}~~~${widget.inputs[otherbox]}~~~${widget.inputs[comments]}~~~${widget.inputs[visited]}~~~${widget.inputs[name]}',
                     version: QrVersions.auto,
                     size: 400,
-                  )),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
