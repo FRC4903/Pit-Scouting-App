@@ -7,12 +7,10 @@ class Page1 extends StatefulWidget {
   const Page1(
       {super.key,
       required this.teamnum,
-      required this.teamname,
       required this.inputs,
       required this.callback});
 
   final teamnum;
-  final teamname;
   final inputs;
   final callback;
 
@@ -142,7 +140,8 @@ class Page1State extends State<Page1> {
                   SizedBox(width: 20),
                   TextInput(
                       title: 'More Comments',
-                      hint: 'auto capabilities, upright cones, vision, etc.',
+                      hint:
+                          'auto capabilities, upright cones, vision, reliability, etc.',
                       initial: widget.inputs[comments],
                       callback: (value) => send(comments, value)),
                   SizedBox(width: 20),

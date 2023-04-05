@@ -76,6 +76,26 @@ class HomePageState extends State<HomePage> {
     IconData starIcon29 = PageVisited29 ? Icons.star : Icons.star_border;
     bool PageVisited30 = widget.inputs['visited30'] == true;
     IconData starIcon30 = PageVisited30 ? Icons.star : Icons.star_border;
+    bool PageVisited31 = widget.inputs['visited31'] == true;
+    IconData starIcon31 = PageVisited31 ? Icons.star : Icons.star_border;
+    bool PageVisited32 = widget.inputs['visited32'] == true;
+    IconData starIcon32 = PageVisited32 ? Icons.star : Icons.star_border;
+    bool PageVisited33 = widget.inputs['visited33'] == true;
+    IconData starIcon33 = PageVisited33 ? Icons.star : Icons.star_border;
+    bool PageVisited34 = widget.inputs['visited34'] == true;
+    IconData starIcon34 = PageVisited34 ? Icons.star : Icons.star_border;
+    bool PageVisited35 = widget.inputs['visited35'] == true;
+    IconData starIcon35 = PageVisited35 ? Icons.star : Icons.star_border;
+    bool PageVisited36 = widget.inputs['visited36'] == true;
+    IconData starIcon36 = PageVisited36 ? Icons.star : Icons.star_border;
+    bool PageVisited37 = widget.inputs['visited37'] == true;
+    IconData starIcon37 = PageVisited37 ? Icons.star : Icons.star_border;
+    bool PageVisited38 = widget.inputs['visited38'] == true;
+    IconData starIcon38 = PageVisited38 ? Icons.star : Icons.star_border;
+    bool PageVisited39 = widget.inputs['visited39'] == true;
+    IconData starIcon39 = PageVisited39 ? Icons.star : Icons.star_border;
+    bool PageVisited40 = widget.inputs['visited40'] == true;
+    IconData starIcon40 = PageVisited40 ? Icons.star : Icons.star_border;
 
     return Scaffold(
       appBar: AppBar(
@@ -712,6 +732,237 @@ class HomePageState extends State<HomePage> {
               ],
             ),
             onTap: () => Navigator.pushNamed(context, '/page30'),
+          ),
+          ListTile(
+            title: Row(
+              children: [
+                Text(widget.inputs['team31']),
+                SizedBox(width: 10),
+                Text(widget.inputs['teamname31']),
+                SizedBox(width: 10),
+                Icon(starIcon31),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '31';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
+              ],
+            ),
+            onTap: () => Navigator.pushNamed(context, '/page31'),
+          ),
+          ListTile(
+            title: Row(
+              children: [
+                Text(widget.inputs['team32']),
+                SizedBox(width: 10),
+                Text(widget.inputs['teamname32']),
+                SizedBox(width: 10),
+                Icon(starIcon32),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '32';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
+              ],
+            ),
+            onTap: () => Navigator.pushNamed(context, '/page32'),
+          ),
+          ListTile(
+            title: Row(
+              children: [
+                Text(widget.inputs['team33']),
+                SizedBox(width: 10),
+                Text(widget.inputs['teamname33']),
+                SizedBox(width: 10),
+                Icon(starIcon33),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '33';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
+              ],
+            ),
+            onTap: () => Navigator.pushNamed(context, '/page33'),
+          ),
+          ListTile(
+            title: Row(
+              children: [
+                Text(widget.inputs['team34']),
+                SizedBox(width: 10),
+                Text(widget.inputs['teamname34']),
+                SizedBox(width: 10),
+                Icon(starIcon34),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '34';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
+              ],
+            ),
+            onTap: () => Navigator.pushNamed(context, '/page34'),
+          ),
+          ListTile(
+            title: Row(
+              children: [
+                Text(widget.inputs['team35']),
+                SizedBox(width: 10),
+                Text(widget.inputs['teamname35']),
+                SizedBox(width: 10),
+                Icon(starIcon35),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '35';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
+              ],
+            ),
+            onTap: () => Navigator.pushNamed(context, '/page35'),
+          ),
+          ListTile(
+            title: Row(
+              children: [
+                Text(widget.inputs['team36']),
+                SizedBox(width: 10),
+                Text(widget.inputs['teamname36']),
+                SizedBox(width: 10),
+                Icon(starIcon36),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '36';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
+              ],
+            ),
+            onTap: () => Navigator.pushNamed(context, '/page36'),
+          ),
+          ListTile(
+            title: Row(
+              children: [
+                Text(widget.inputs['team37']),
+                SizedBox(width: 10),
+                Text(widget.inputs['teamname37']),
+                SizedBox(width: 10),
+                Icon(starIcon37),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '37';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
+              ],
+            ),
+            onTap: () => Navigator.pushNamed(context, '/page37'),
+          ),
+          ListTile(
+            title: Row(
+              children: [
+                Text(widget.inputs['team38']),
+                SizedBox(width: 10),
+                Text(widget.inputs['teamname38']),
+                SizedBox(width: 10),
+                Icon(starIcon38),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '38';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
+              ],
+            ),
+            onTap: () => Navigator.pushNamed(context, '/page38'),
+          ),
+          ListTile(
+            title: Row(
+              children: [
+                Text(widget.inputs['team39']),
+                SizedBox(width: 10),
+                Text(widget.inputs['teamname39']),
+                SizedBox(width: 10),
+                Icon(starIcon39),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '39';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
+              ],
+            ),
+            onTap: () => Navigator.pushNamed(context, '/page39'),
+          ),
+          ListTile(
+            title: Row(
+              children: [
+                Text(widget.inputs['team40']),
+                SizedBox(width: 10),
+                Text(widget.inputs['teamname40']),
+                SizedBox(width: 10),
+                Icon(starIcon40),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '40';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
+              ],
+            ),
+            onTap: () => Navigator.pushNamed(context, '/page40'),
+          ),
+          ListTile(
+            title: Row(
+              children: [
+                Text(widget.inputs['team41']),
+                SizedBox(width: 10),
+                Text(widget.inputs['teamname41']),
+                SizedBox(width: 10),
+                Icon(starIcon40),
+                TextButton(
+                  onPressed: () {
+                    setState(() {
+                      widget.inputs['refnum'] = '41';
+                    });
+                    Navigator.pushNamed(context, '/Qrpage');
+                  },
+                  child: Text('Qr Code'),
+                ),
+              ],
+            ),
+            onTap: () => Navigator.pushNamed(context, '/page41'),
           ),
         ],
       ),
